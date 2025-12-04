@@ -12,3 +12,7 @@ GitPkg enables you to use a sub directory in a github repo as yarn / npm depende
 
 - sub folder of a github repo as yarn / npm dependency
 - use [custom scripts](https://gitpkg.vercel.app/about/guide#custom-scripts) to build source code when installing
+
+# NAD
+
+If recreating the project on `vercel.com`, be sure to go to its `Settings` -> `Build and Deployment` -> `Root Directory` -> Clear the text field (was set to "website" in my case) and hit `Save`. I didn't see a way to override this from `vercel.json`, hence this directive.

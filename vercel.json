@@ -1,4 +1,5 @@
 {
+  "installCommand": "npm install # NOTE: also installs workspaces packages (`packages/*`, `website`). Necessary otherwise vercel defaults to trying to install from `vercel/package.json`, which doesn't exist.",
   "buildCommand": "npm run build-all",
   "framework": null,
   "outputDirectory": "public",
